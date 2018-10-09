@@ -1,0 +1,26 @@
+{
+    "dependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "compression": "^1.7.1",
+        "cookie-parser": "^1.4.3",
+        "express": "^4.16.2",
+        "material-ui": "^0.20.0",
+        "mongoose": "^4.13.7",
+        "nodemon": "^1.14.3",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "uglifyjs-webpack-plugin": "^1.1.6",
+        "webpack": "^3.10.0"
+    },
+    "name": "titan",
+    "private": true,
+    "scripts": {
+        "cli": "webpack --watch --config webpack.js",
+        "srv": "nodemon --watch srv --experimental-modules srv/main.mjs"
+    },
+    "version": "1.0.0"
+}
