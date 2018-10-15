@@ -1,6 +1,6 @@
 # Titan
 
-The goal of this project is to demonstrate use of modern web technologies and build a basic application which may serve as an example for other projects.
+Titan is a simple course support system. The goal of the project is to demonstrate use of modern web technologies and build a basic application which may serve as an example for other projects.
 
 ## Highlights
 
